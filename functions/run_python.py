@@ -1,5 +1,5 @@
 import os
-from google.genai import types
+from google.genai import types # type: ignore
 import subprocess
 
 def run_python_file(working_directory, file_path):

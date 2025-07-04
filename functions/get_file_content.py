@@ -1,5 +1,5 @@
 import os
-from google.genai import types
+from google.genai import types # type: ignore
 
 def get_file_content(working_directory, file_path):
 
